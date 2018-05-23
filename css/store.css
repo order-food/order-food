@@ -1,0 +1,317 @@
+/*
+* @Author: Administrator
+* @Date:   2018-05-22 20:01:16
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-05-22 20:25:42
+*/
+
+/*
+* @Author: Administrator
+* @Date:   2018-05-20 11:47:31
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-05-22 14:12:46
+*/
+@import url(base.css);
+/*header 开始*/
+header{
+	padding: 0.15rem 0.34rem;
+	box-sizing: border-box;
+	width: 100%;
+	height: 0.87rem;
+	background: #e63c5a;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+}
+header>a>i{
+	display: block;
+	color: #fff;
+}
+/*header 结束*/
+/* 食物详情 开始 */
+.food{
+	margin-top: 0.86rem;	
+	width: 100%;
+	height: 2.05rem;
+	background: #e63c5a;
+	position: relative;
+}
+.food .food_top{
+	width: 100%;
+	height: 1.45rem;
+	background: #e63c5a;
+	padding-left: 0.48rem;
+	padding-right: 1.11rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.food .food_top>img{
+	display: block;
+	width: 1.31rem;
+	height: 1.31rem;
+}
+.food .food_top .food_top_l{
+	width: 4.08rem;
+	height: 100%;
+}
+.food .food_top .food_top_l>h4{
+	height: 0.62rem;
+	line-height: 0.62rem;
+	font-size: 0.4rem;
+	color: #fff;
+}
+.food .food_top .food_top_l>p{
+	height: 0.29rem;
+	font-size:0.2rem ;
+	line-height: 0.29rem;
+	color: #fff;
+	margin-bottom: 0.13rem;
+}
+.food .food_top .food_top_l>ul{
+	width: 100%;
+	height: 0.38rem;
+	font-size: 0.2rem;
+	
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.food .food_top .food_top_l>ul>li{
+	text-align: center;
+	height: 0.32rem;
+	line-height: 0.32rem;
+	width: 1.09rem;
+	border: 0.03rem solid #fff;
+	border-radius: 0.19rem;
+}
+.food .info{
+	width: 100%;
+	height: 0.6rem;
+	background: #7f7f7f;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	line-height: 0.6rem;
+	font-size: 0.2rem;
+	color: #000;
+}
+/* 食物详情 结束 */
+/* 订单主体 开始 */
+.order_main{
+	width: 100%;
+	height: 12.55em;
+	background: #fff;
+}
+.order_main .order_main_top{
+	width: 100%;
+	height: 1.01rem;
+	padding: 0.2rem 0;
+	box-sizing: border-box;
+}
+.order_main .order_main_top .main_tab{
+	width: 3.63rem;
+	height: 0.61rem;
+	border-radius: 0.3rem;
+	background: #c9c9c9;
+	margin: 0 auto;
+	padding: 0.04rem 0.05rem;
+	box-sizing: border-box;
+}
+.order_main .order_main_top .main_tab>ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.order_main .order_main_top .main_tab .active{
+	color: #e63c5a;
+	border: 0.03rem solid #e63c5a;
+}
+.order_main .order_main_top .main_tab>ul>li{
+	text-align: center;
+	line-height: 0.47rem;
+	font-size: 0.32rem;
+	width: 1.61rem;
+	height: 0.47rem;
+	border: 0.03rem solid #c9c9c9;
+	color: #80807e;
+	border-radius: 0.26rem
+}
+.order_main .tab_left{
+	float: left;
+	padding: 0.23rem 0.65rem 0 0.37rem;
+	box-sizing: border-box;
+	width: 22%;
+	height: 4.67rem;
+	background: #fff;
+}
+.order_main .tab_left>ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	font-size: 0.2rem;
+
+}
+.order_main .tab_left .tab_active{
+	background: #d12f4c;
+	color: #fff;
+}
+.order_main .tab_left>ul>li{
+	flex-shrink: 0;
+	width: 0.64rem;
+	height: 0.33rem;
+	line-height: 0.33rem;
+	text-align: center;
+	border-radius: 0.16rem;
+	color: #020001;
+}
+.order_main .main_right{
+	float: right;
+	width: 78%;
+	height: 11.54rem;
+	background: #fff;
+	padding-bottom: 0.23rem;
+	padding-right: 0.43rem;
+	box-sizing: border-box;
+}
+.order_main .main_right>ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.order_main .main_right>ul>li{
+	flex-shrink: 0;
+	width: 100%;
+	height: 1.45rem;
+	/* background: red; */
+}
+.order_main .main_right>ul>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.order_main .main_right>ul>li>a>img{
+	float: left;
+	width: 1.43rem;
+	height: 1.45rem;
+}
+.order_main .main_right>ul>li>a .main_r_r{
+	float: right;
+	width: 3.99rem;
+	height: 100%;
+	background: #fff;
+	padding-left: 0.38rem;
+	box-sizing: border-box;
+}
+.order_main .main_right>ul>li>a .main_r_r>h2{
+	font-size: 0.32rem;
+	color: #020001;
+	margin-bottom: 0.08rem;
+}
+.order_main .main_right>ul>li>a .main_r_r>h3{
+	font-size: 0.24rem;
+	color: #808080;
+	height: 0.44rem;
+	line-height: 0.44rem;
+}
+.order_main .main_right>ul>li>a .main_r_r>h4{
+	font-size: 0.18rem;
+	color: #808080;
+	height: 0.28rem;
+	line-height: 0.28rem;
+	margin-bottom: 0.03rem;
+}
+.order_main .main_right>ul>li>a .main_r_r .main_r_r_r{
+	display: flex;
+	justify-content: space-between;
+}
+.order_main .main_right>ul>li>a .main_r_r .main_r_r_r>h5{
+	font-size: 0.18rem;
+	color: #808080;
+}
+.order_main .main_right>ul>li>a .main_r_r .main_r_r_r>h5>span{
+	font-size: 0.22rem;
+	color: #e63c5a;
+}
+.order_main .main_right>ul>li>a .main_r_r .main_r_r_r>span{
+	display: block;
+	width: 1.04rem;
+	font-size: 0.22rem;
+	color: #000;
+	text-align: right;
+}
+.order_main .main_right>ul>li>a .main_r_r .main_r_r_r>span>i{
+	color: #e63c5a;
+}
+/* 订单主体 结束 */
+/* footer 开始 */
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background: #434343;
+	position: relative;
+	display: flex;
+}
+.mon_info{
+	width: 70%;
+	height: 100%;
+	background:#434343; 
+	position: relative;
+}
+.mon_info .mon_left{
+	width: 3.4rem;
+	height: 100%;
+	float: right;
+	padding: 0.15rem 0;
+	box-sizing: border-box;
+	/* line-height: 0.98rem; */
+}
+.mon_info .mon_left>span{
+	display: block;
+	font-size:0.28rem;
+	margin-bottom: 0.11rem;
+	color: #e63c5a;
+}
+.mon_info .mon_left>h4{
+	font-size:0.34rem;
+	color: #fff;
+	line-height: 0.68rem;
+}
+.mon_info .mon_car{
+	width: 0.92rem;
+	height: 0.92rem;
+	border-radius: 50%;
+	background: #808080;
+	position:absolute ;
+	top: -0.32rem;
+	left: 0.3rem;
+	font-size: 0.6rem;
+	line-height: 0.92rem;
+	text-align: center;
+	color: #000000;
+}
+.go{
+	/* float: right; */
+	width: 30%;
+	height: 100%;
+	background: #a0a0a0;
+	font-size: 0.28rem;
+	line-height: 0.98rem;
+	text-align: center;
+	font-family: "黑体";
+}
+.go>a{
+	display: block;
+	color: #fff;
+}
+/* footer 结束 
