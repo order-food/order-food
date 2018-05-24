@@ -1,0 +1,205 @@
+/*
+* @Author: 13350
+* @Date:   2018-05-20 11:45:18
+* @Last Modified by:   13350
+* @Last Modified time: 2018-05-23 13:08:46
+*/
+@import url('base.css');
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.top{
+	width: 7.5rem;
+	height: 2.38rem;
+	background: #e63c5a;
+	margin: 0 auto;
+	position: relative;
+}
+.top i{
+	display: block;
+	width: 0.78rem;
+	height: 0.54rem;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.54rem;
+	color: #ffffff;
+}
+.top p{
+	display: block;
+	width: 3.60rem;
+	height: 1.16rem;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 1.16rem;
+	color: #ffffff;
+}
+.money{
+	width: 6.82rem;
+	height: 1.24rem;
+	background: #fff;
+	position: absolute;
+	top: 1.76rem;
+	left: 0.33rem;
+	border-radius: 0.05rem;
+	box-shadow: 0 0 0.06rem 0.03rem #b8b4b4;
+	
+}
+.money img{
+	display: block;
+	width: 0.65rem;
+	height: 0.65rem;
+	margin-top: 0.29rem;
+	margin-left: 0.12rem;
+	float: left;
+}
+.money p{
+	display: block;
+	width: 3.6rem;
+	height: 1.24rem;
+	text-align: center;
+	line-height: 1.24rem;
+	font-size: .32rem;
+	color: #000100;
+	float: left;
+}
+.money span{
+	display: block;
+	width: auto;
+	height: 0.66rem;
+	margin-top: 0.29rem;
+	margin-right: 0.12rem;
+	float: right;
+	text-align: center;
+	line-height: 0.66rem;
+	font-size: .24rem;
+	color: #e63c5a;
+}
+.card{
+	width: 5.65rem;
+	height: 3.48rem;
+	margin-top: 0.94rem;
+	margin-left: 0.93rem;
+	border-radius: 0.2rem;
+	position: relative;
+}
+.card img{
+	width: 5.65rem;
+	height: 3.48rem;
+}
+.card_b{
+	width: 6.82rem;
+	height: 2.76rem;
+	background: rgba(251, 251, 251, 0.8);
+	position: absolute;
+	top: 2.56rem;
+	left: -.59rem;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.circle{
+	width: 0.36rem;
+	height: 0.09rem;
+	margin-top: 0.76rem;
+	margin-left: 1.49rem;
+	display: flex;
+	justify-content: space-between;
+}
+.card p{
+	display: block;
+	width: auto;
+	height: 0.38rem;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.38rem;
+	color: #454648;
+	margin-top: 0.54rem;
+}
+.circle_r{
+	width: 0.36rem;
+	height: 0.09rem;
+	margin-top: 0.76rem;
+	margin-right: 1.49rem;
+	display: flex;
+	justify-content: space-between;
+}
+.card_b li{
+	width: 0.09rem;
+	height: 0.09rem;
+	background: #e63c5a;
+	border-radius: 50%;
+}
+.circle li:first-child{
+	background: #e5a4b5;
+}
+.circle li:nth-child(2){
+	background: #e57087;
+}
+.circle_r li:nth-child(2){
+	background: #e57087;
+}
+.circle_r li:nth-child(3){
+	background: #e5a4b5;
+}
+.tu{
+	width: 7.50rem;
+	height: 5.68rem;
+	margin-top: 0.46rem;
+	position: relative;
+}
+.tu_1 img{
+	display: block;
+	width: 7.06rem;
+	height: 5.42rem;
+	position: absolute;
+	top: 0.26rem;
+	left: 0;
+	z-index: 100;
+}
+.tu_2 img{
+	display: block;
+	width: 7.50rem;
+	height: 5.68rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 101;
+}
+.tu_3 img{
+	display: block;
+	width: 7.50rem;
+	height: 5.42rem;
+	background: cover;
+	position: absolute;
+	top: 0.26rem;
+	left: 0;
+	z-index: 102;
+	opacity: 0.5;
+}
+.tu_4 img{
+	display: block;
+	width: 1.83rem;
+	height: 1.75rem;
+	position: absolute;
+	top: 2.04rem;
+	left: 2.72rem;
+	z-index: 103;
+}
+.tu span{
+	display: block;
+	width: 7.5rem;
+	height: 0.54rem;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.54rem;
+	color: #f6b484;
+	position: absolute;
+	top: 4.70rem;
+	left: 0;
+	z-index: 104;
+}

@@ -1,0 +1,169 @@
+/*
+* @Author: 13350
+* @Date:   2018-05-20 11:43:14
+* @Last Modified by:   13350
+* @Last Modified time: 2018-05-22 21:56:09
+*/
+@import url('base.css');
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.top{
+	width: 100%;
+	height: 0.88rem;
+	background: #e63c5a;
+}
+.top i{
+	display: block;
+	width: 0.87rem;
+	height: 0.88rem;
+	text-align: center;
+	line-height: 0.88rem;
+	font-size: 0.24rem;
+	color: #ffffff;
+	font-weight: bold;
+}
+.money{
+	width: 6.82rem;
+	height: 1.24rem;
+	margin-top: 0.88rem;
+	margin-left: 0.33rem;
+	overflow: hidden;
+	border-radius: 0.05rem;
+	box-shadow: 0 0 0.06rem 0.03rem #b8b4b4;
+}
+.money img{
+	display: block;
+	width: 0.65rem;
+	height: 0.65rem;
+	margin-top: 0.29rem;
+	margin-left: 0.12rem;
+	float: left;
+}
+.money p{
+	display: block;
+	width: 3.6rem;
+	height: 1.24rem;
+	text-align: center;
+	line-height: 1.24rem;
+	font-size: .3rem;
+	color: #000100;
+	float: left;
+}
+.money span{
+	display: block;
+	width: auto;
+	height: 0.66rem;
+	margin-top: 0.29rem;
+	margin-right: 0.12rem;
+	float: right;
+	text-align: center;
+	line-height: 0.66rem;
+	font-size: .22rem;
+	color: #e63c5a;
+}
+.card{
+	width: 5.65rem;
+	height: 3.48rem;
+	margin-top: 0.32rem;
+	margin-left: 0.93rem;
+	border-radius: 0.2rem;
+	position: relative;
+}
+.card img{
+	width: 5.65rem;
+	height: 3.48rem;
+}
+.card_b{
+	width: 6.82rem;
+	height: 1.37rem;
+	background: rgba(251, 251, 251, 0.8);
+	position: absolute;
+	top: 2.56rem;
+	left: -.59rem;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.circle{
+	width: 0.36rem;
+	height: 0.09rem;
+	margin-top: 0.76rem;
+	margin-left: 1.49rem;
+	display: flex;
+	justify-content: space-between;
+}
+.card p{
+	display: block;
+	width: auto;
+	height: 0.38rem;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.38rem;
+	color: #454648;
+	margin-top: 0.54rem;
+}
+.circle_r{
+	width: 0.36rem;
+	height: 0.09rem;
+	margin-top: 0.76rem;
+	margin-right: 1.49rem;
+	display: flex;
+	justify-content: space-between;
+}
+.card_b li{
+	width: 0.09rem;
+	height: 0.09rem;
+	background: #e63c5a;
+	border-radius: 50%;
+}
+.circle li:first-child{
+	background: #e5a4b5;
+}
+.circle li:nth-child(2){
+	background: #e57087;
+}
+.circle_r li:nth-child(2){
+	background: #e57087;
+}
+.circle_r li:nth-child(3){
+	background: #e5a4b5;
+}
+.bottom{
+	width: 4.65rem;
+	height: 4.83rem;
+	margin: 0 auto;
+	margin-top: 0.6rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 0.73rem;
+}
+.bottom_1{
+	width: 4.65rem;
+	height: 0.3rem;
+	display: flex;
+	justify-content: space-between;
+}
+.bottom_w{
+	width: 0.3rem;
+	height: 0.3rem;
+	background: #f5b1bd;
+	border-radius: 50%;
+}
+.bottom_n{
+	width: 0.06rem;
+	height: 0.06rem;
+	background: #e63c5a;
+	border-radius: 50%;
+	border: 0.04rem solid #e63c5a;
+	margin: 0.08rem;
+}
+.bottom_n:hover{
+	background: #fff;
+}
