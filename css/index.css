@@ -229,6 +229,7 @@ input{
 	height: 9.4rem;
 /* 	background: seagreen; */
 	margin-left: 0.24rem;
+	margin-bottom: 1rem;
 }
 .store li{
 	width: 100%;
@@ -320,3 +321,47 @@ input{
 	text-align: center;
 	color: red;
 }
+
+/* 底部开始 */
+footer{
+	width: 94%;
+	height: 1rem;
+	margin: 0 0.23rem;
+	background: #ffffff;
+	border-top:0.01rem solid #999999;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+}
+footer>.foot{
+	width: 5.12rem;
+	margin: 0 auto;
+	
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+footer>.foot>.foot_son,footer>.foot>.foot_son>a{
+	display: block;
+	width: .5rem;
+	height: 100%;
+	color: #636363;
+	font-size: .18rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+footer>.foot>.foot_son>a>i{
+	font-size: .3rem;
+	margin-bottom: .12rem;
+}
+footer>.foot>.foot_son>a:hover{
+	color:#ee8d9f;
+}
+footer>.foot>.foot_son>a.on{
+	color:#ee8d9f;
+}
+/* 底部结束 */
